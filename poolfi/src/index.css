@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Core */
+  --color-pool-blue: #1B4FD8;
+  --color-deep-end: #052698;
+  --color-splash: #21BCEE;
+  --color-sand: #F4E8D2;
+
+  /* Neutrals */
+  --color-ink: #0B1530;
+  --color-slate: #5B6478;
+  --color-mist: #E6EAF2;
+  --color-foam: #F5F7FB;
+  --color-white: #FFFFFF;
+
+  /* Status */
+  --color-success: #12B76A;
+  --color-warning: #F79009;
+  --color-error: #F04438;
+
+  /* Pool Blue scale */
+  --blue-50: #EFF3FC;
+  --blue-100: #DDE5F9;
+  --blue-200: #BBCAF3;
+  --blue-300: #92ABEC;
+  --blue-400: #6487E4;
+  --blue-500: #3B68DD;
+  --blue-600: #1B4FD8;
+  --blue-700: #103AB8;
+  --blue-800: #052698;
+  --blue-900: #03185E;
+
+  /* Splash scale */
+  --splash-50: #EDFAFE;
+  --splash-100: #D7F3FC;
+  --splash-200: #ABE6F9;
+
+  /* Gradient: shallow to deep */
+  --gradient-water: linear-gradient(180deg, #21BCEE 0%, #1B4FD8 55%, #052698 100%);
+
+  /* Typography */
+  --font-primary: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: 'Instrument Serif', Georgia, serif; /* italic only, 24px+ */
+  --text-celebrate: 40px/40px;
+  --text-display: 32px/40px;
+  --text-h1: 28px/36px;
+  --text-h2: 22px/30px;
+  --text-h3: 18px/26px;
+  --text-body: 16px/24px;
+  --text-small: 14px/20px;
+  --text-caption: 12px/16px;
+
+  /* Spacing (4px base) */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-6: 24px; --space-8: 32px; --space-12: 48px; --space-16: 64px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* Elevation */
+  --shadow-raised: 0 12px 32px -12px rgba(5,38,152,.28), 0 2px 6px rgba(5,38,152,.08);
+  --shadow-soft: 0px 4px 25px 0px #0B153025;
+
+  /* Motion */
+  --duration-press: 100ms;
+  --duration-fast: 150ms;
+  --duration-base: 220ms;
+  --duration-sheet: 320ms;
+  --duration-celebrate: 700ms;
+  --ease-out: cubic-bezier(.2,.8,.2,1);
+  --ease-in-out: cubic-bezier(.65,0,.35,1);
+  --ease-splash: cubic-bezier(.34,1.56,.64,1);
+
+  /* Layout */
+  --touch-min: 44px;
+  --button-height: 52px;
+}
